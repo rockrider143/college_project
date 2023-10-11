@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header{
+min-height: 70vh;
+width: 100vw;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('wallpaperflare.com_wallpaper\ \(4\).jpg');
+background-position: center;
+background-size: auto;
+background-attachment: fixed;
+
+
+
+}
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    height: 70px;
+    width: 100vw;
+    background: transparent;
+
+
+}
+
+#title{
+color: orange;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+#options {
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+#options a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding-right: 70px;
+}
+
+
+ #login button{
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    margin-right: 40px;
+   width: 70px;
+   height: 30px;
+
+}
+
+#login button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    border: 1px red solid;
+}
+
+#text{
+position: relative;
+left: 100px;
+top: 50px;
+max-width: 500px;
+text-align: center;
+color: white;
+}
+
+#text h5{
+    font-size: 30px;
+    padding-top: 30px;
+}
+#text p{
+    
+    padding-top: 70px;
+}
+
+
+#search{
+position: relative;
+bottom: 100px;
+left: 50vw;
+}
+
+#search input{
+
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#search button{
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: red;
+    color: white;
+}
+
+
+#search button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    border: 1px red solid;
+}
+
+
+#content{
+    margin-top: 100px;
+    width: 100%;
+}
+
+section img{
+    width: 100px;
+    height: 100px;
+}
+
+#content .item{
+    width:350px ;
+    height:400px;
+    float: left;
+    margin-bottom:20px;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+
+#content img{
+    width:350px;
+height: 300px;
+border:none;
+border-radius: 10px;
+}
+
+
+#content h4{
+text-align: center;
+    font-size: 30px;
+}
+
+
+#content img:hover{
+cursor: pointer;
+
+}
